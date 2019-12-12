@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Switch, Link, Route} from 'react-router-dom';
-import CustomerList from './components/CustomerList';
-import TrainingList from './components/TrainingList';
+import { BrowserRouter} from 'react-router-dom';
+// import CustomerList from './components/CustomerList';
+// import TrainingList from './components/TrainingList';
 import Navigator from './components/Navigator';
+// import AddCustomer from './components/AddCustomer';
 
 
 
 function App() {
   return (
+   
     <BrowserRouter>
     <div>
     <Navigator />
